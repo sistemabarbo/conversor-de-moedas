@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+}
+.div{
+  margin-top: 100px;
+  border: 2px solid red;
+  width: 70%;
+  margin: auto;
+  background: rgb(140, 143, 140);
+  color: aliceblue;
+  margin-bottom: 70px;
+}
+@media screen and (min-width:500px) {
+.div{
+  width: 40%;
+}
+p{
+  width: 60px;
+  font-size: 15px;
+  padding: 10px;
+}
+input{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+}
+p {
+  background: green;
+  width: 120px;
+  margin: auto;
+  padding: 30px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 30px;
+}
+input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: blue;
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+option{
+  background: red;
+  color: aliceblue;
+  cursor: pointer;
+  padding: 10px;
+}
+select {
+  background: yellow;
+  padding: 10px;
+  cursor: pointer;
+}
+.select {
+  width: 250px;
+  margin: auto;
+  margin-bottom: 50px;
+}
